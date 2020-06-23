@@ -5,8 +5,6 @@ Code Zip contains
   UiPath Process that in concept will iterate through all Boroughs with the similar search and scrape all listing URL's
   
   This is then passed to the Scraper Planning Data CSV where it will take all the URL's and get the details of each listing
- 
-  
   
 CSV Zip contains
 
