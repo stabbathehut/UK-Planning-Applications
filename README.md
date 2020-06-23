@@ -1,8 +1,11 @@
 # UK-Planning-Applications
 
-Ireland Data to train from - Thanks to Ben where it was used to determine if it can be done at a smaller scale.
-
-Planning Applications zip - UiPath takes URL's of aberdeen that start from 2009. This is then to be scraped by the planning_scraper within the zip file.
-
-Postcodes Original - May be able to use this to go through all the advanced searches similar to Aberdeen once that section is working. Then we would have the majority of Boroughs
-
+Code Zip contains
+  UiPath Process that in concept will iterate through all Boroughs with the similar search and scrape all listing URL's
+  This is then passed to the Scraper Planning Data CSV where it will take all the URL's and get the details of each listing
+  
+CSV Zip contains
+  Planning Data Ireland - Thanks to Ben 6500 searches from 2009-2018 for test of concept. Model can start to be trained from this
+  Boroughs with same search - used by UiPath Process 
+  List of all Boroughs - Eventually will identify which boroughs we are missing from Boroughs with same search
+  List of all Postcodes - To gain every single listing (NOT IMPORTANT UNTIL FULLY WORKING SOLUTION)
